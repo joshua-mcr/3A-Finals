@@ -48,7 +48,7 @@ class SubjectTest extends TestCase
             'final' => 1.5,
             'date_taken' => '2024-06-22'
         ]);
-        $response->assertStatus(Response::HTTP_OK);
+        $response->assertStatus(Response::HTTP_OK); 
         $response->assertJsonStructure(['message']);
         $response->assertJsonPath('message', 'Patch Test');
     }
