@@ -9,7 +9,7 @@ use Illuminate\Http\Request;
 
 use Tests\TestCase;
 
-class testuser extends TestCase
+class UserTest extends TestCase
 {
     /**
      * A basic feature test example.
